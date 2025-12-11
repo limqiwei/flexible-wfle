@@ -17,6 +17,7 @@ This is an suggested guide to setup a relatively flexible webstack using Apache,
 * [Apache Password Mode](#apache-password-mode)
 * [Troubleshooting](#troubleshooting)
 * [Reference Links](#reference-links)
+* [Credits](#reference-links)
 
 # Motivations
 * Work with multi-PHP projects seamlessly.
