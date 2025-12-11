@@ -301,10 +301,10 @@ Copy the `nodejs_package.json` file from `configs/pm2/nodejs_package.json` into 
 
 The package.json comes with some default scripts to start your entire dev ecosystem. You would need to update the path as indicated below below.
 
-`package.json`
+`package.json`<br><br>
 ![nodejs1](screenshots/nodejs_1.png)
 
-`dev.config.js`
+`dev.config.js`<br><br>
 ![nodejs2](screenshots/nodejs_2.png)
 
 # Sanity Checks
