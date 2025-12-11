@@ -209,7 +209,7 @@ From the `bin` folder of the mysql, run this command with the default file path 
 Note: The provided configuration file path is located in `dev/configs/mysql/my.ini`
 
 ```
-mysqld.exe --defaults-file=path/to/your/my.ini --initialize --user=root
+mysqld.exe --defaults-file=E:/dev/configs/mysql/my.ini --initialize --user=root
 ```
 
 After running this command, the default database tables will be created under dev/data/mysql
