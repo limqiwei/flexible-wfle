@@ -193,10 +193,10 @@ From the `bin` folder of the mariadb, run this command with the default file pat
 Note: The provided configuration file path is located in `dev/configs/mariadb/my.ini`
 
 ```
-mariadb-install-db.exe --defaults-file=path/to/your/my.ini
+mariadb-install-db.exe --config=E:/dev/configs/mariadb/my.ini
 ```
 
-After running this command, the default database tables will be created under dev/data/mariadb. 
+After running this command, the default database tables will be created under `dev/data/mariadb`. Along with the my.ini. Delete the .ini file in the data folder as we will use the one in `configs/mariadb/`
 
 Note: By default MariaDB will be initialized without any password. This may change in the future.
 
@@ -209,7 +209,7 @@ From the `bin` folder of the mysql, run this command with the default file path 
 Note: The provided configuration file path is located in `dev/configs/mysql/my.ini`
 
 ```
-mysqld.exe --defaults-file=path/to/your/my.ini --initialize --user=mysql
+mysqld.exe --defaults-file=path/to/your/my.ini --initialize --user=root
 ```
 
 After running this command, the default database tables will be created under dev/data/mysql
