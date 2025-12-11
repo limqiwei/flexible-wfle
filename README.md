@@ -37,12 +37,12 @@ The following is one preferred way to organize the tools. Feel free to adjust ac
 
 `data` Contains runtime or external data. Such as apache logs, database data, or temporary data for uploaded files for PHP runtime
 
+`docs` Contains any non-code. May be used for documentation, notes, etc.
+
+
 `projects` Root folder for source code of projects, which can be placed here for conveience. There may not be limited to web projects.
 
 `tools` Contains all the tools used for development. For now this guide only includes the tools related to setting up a working web development environment. Other tools may also be placed here to consolidate all tools related to dev works.
-
-`docs` Contains any non-code. May be used for documentation, notes, etc.
-
 
 ```bash
 └───dev
@@ -67,9 +67,10 @@ The following is one preferred way to organize the tools. Feel free to adjust ac
     │   ├───mariadb # Data Directory for MariaDB
     │   ├───mysql # Data Directory for MySQL
     │   └───php # Tmp Directory for File Uploads
+    └───docs
     ├───projects
     └───tools
-        ├───apache
+       ├───apache
         │   └───2.4.66
         │       └───bin
         ├───mariadb
