@@ -243,8 +243,8 @@ mysql.exe --host=localhost --port=9111 --user=root --password=yourTempPassword
 
 Once connected update your password to something that you desire.
 
-```bash
-ALTER USER root@localhost IDENTIFIED BY 'mydevpassword'
+```sql
+ALTER USER root@localhost IDENTIFIED BY 'mydevpassword';
 ```
 
 After this you can try connecting to your mysql to verify that your password has been updated. 
