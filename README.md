@@ -109,7 +109,7 @@ For flexiblility, the choice of this setup is to use zip archives instead of ins
 | ----------- | ----------- | --- |
 | Apache | https://www.apachelounge.com/download/ | - |
 | Apache Module: mod_fcgid | https://www.apachelounge.com/download/ | For PHP-CGI |
-| MariaDB | https://www.apachelounge.com/download/ | - |
+| MariaDB | https://mariadb.org/download/ | - |
 | MySQL | https://dev.mysql.com/downloads/mysql/ | - |
 | PHP   | https://windows.php.net/download/ | - |
 | PHP   | https://windows.php.net/downloads/releases/archives/ | For Older PHP Versions |
