@@ -1,0 +1,9 @@
+{
+  "name": "dev_setup",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "pm2 start E:/dev/configs/pm2/dev.config.js && npm run a2authgen",
+    "stop": "pm2 stop all && pm2 delete all",
+    "a2authgen" : "node E:/dev/configs/pm2/apache_auth_generator.js.js"
+  }
+}
